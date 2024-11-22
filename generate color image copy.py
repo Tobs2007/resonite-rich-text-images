@@ -1,7 +1,4 @@
-import colorsys
 import time
-import math
-import os
 import clipboard
 import numpy as np
 from PIL import Image
@@ -21,7 +18,6 @@ img=Image.open("AC.jpg")
 imgres=img.resize((xsize,ysize))
 ima= np.asarray(imgres)
 imgres.save("output.png")
-# print (ima)
 
 
 
